@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ html,
+ body{
+    height: 100%;
+    width: 100%;
+ }
+.page1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.page1 > video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
